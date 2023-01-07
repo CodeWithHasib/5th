@@ -210,6 +210,28 @@
     margin-top: 15px;
 }
 /* subscribe us part */
+.sub_email
+{
+    height: 60px;
+    width: 100%;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 0.5em;
+}
+.subscrib_btn
+{
+    background: #fff;
+    border: 0;
+    border-radius: 6px;
+    height: 60px;
+    width: 170px;
+    margin-top: 20px;
+    color: #F15B22;
+    font-size: 0.7em;
+    font-weight: 600;
+}
 .subscribe
 {
     padding-right: 100px;
