@@ -181,6 +181,26 @@
     position: absolute;
     border-radius: 8px;
 }
+/* extra part (video ) */
+.video_container h1
+{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.video_container p
+{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.extra_video
+{
+    width: 550px;
+   margin-left: 30%;
+   border-radius: 7px;
+   margin-bottom: 22px;
+}
 /* footer part start */
 .footer
 {
