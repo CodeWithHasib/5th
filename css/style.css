@@ -135,27 +135,50 @@
     background-image: url(../img/watch.png);
     width: 720px;
     height: 250px;
-  margin-left: 300px;
-  border-radius: 8px;
-}
-/* color overlay */
-/* .mindset_img .color_overlay {
-  
-} */
-.mindset 
-{ 
-    width: 720px;
-    height: 250px;
+    margin-left: 300px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
 }
-.mindset .color_overlay
-{
+
+.mind_btn {
+    width: 160px;
+    height: 64px;
+    margin-top: 20px;
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+
+/* color overlay */
+.mind_content {
+    z-index: 1;
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.mind_content h1 {
+    color: #fff;
+    font-size: 2.6em;
+}
+
+.mindset {
     width: 720px;
     height: 250px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding-bottom: 130px;
+}
+
+.mindset .color_overlay {
+    width: 720px;
+    height: 250px;
+    background: linear-gradient(90deg, #d42d49c9 0%, rgba(241, 91, 34, 0) 100%);
     opacity: 1;
     position: absolute;
     border-radius: 8px;
 }
+/* footer part start */
