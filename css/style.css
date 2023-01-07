@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header background css start */
+.header_bg {
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+/* header content css */
+.header_text {
+    width: 400px;
+    height: 550px;
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 170px;
+
+}
+
+.header_text p {
+    color: rgb(61, 60, 60);
+}
+
+.header_text h1 {
+    font-weight: 700;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+/* header button css start here  */
+.header_btn {
+    margin-top: 20px;
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 6px;
+}
+
+/* failur part start */
+.failur {
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+}
+
+.failur_img img {
+    width: 450px;
+    padding-left: 80px;
+}
+
+.failur_text {
+    padding-right: 80px;
+    padding-top: 100px;
+}
+
+.failur_text h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #292424;
+    padding-bottom: 25px;
+}
+
+.failur_text p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #292424;
+    padding-bottom: 25px;
+}
+
+.failur_text li {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.failur_text li i {
+    color: #16D887;
+}
+
+/* plan part start  */
+.plan {
+    margin-top: 125px;
+}
+
+.plan_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.plan_title h1 {
+    font-size: 2.6em;
+    text-align: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.plan_content p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+/* plan card part start */
+.plan_content img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.plan_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+/* plan card part end */
