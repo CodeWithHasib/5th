@@ -131,7 +131,31 @@
 
 /* plan card part end */
 /* mind set part start here */
-.mindset_img img {
+.mindset_img {
+    background-image: url(../img/watch.png);
     width: 720px;
     height: 250px;
+  margin-left: 300px;
+  border-radius: 8px;
+}
+/* color overlay */
+/* .mindset_img .color_overlay {
+  
+} */
+.mindset 
+{ 
+    width: 720px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.mindset .color_overlay
+{
+    width: 720px;
+    height: 250px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    opacity: 1;
+    position: absolute;
+    border-radius: 8px;
 }
